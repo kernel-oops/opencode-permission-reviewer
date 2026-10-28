@@ -1,0 +1,13 @@
+{
+  "name": "@kerneloops/opencode-permission-reviewer",
+  "version": "0.1.0",
+  "description": "Conservative model-assisted permission vetoes for stock OpenCode 2.2",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src/index.js", "examples/policy.txt", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=22" },
+  "author": "Marc <marc@kernel-panic.im>",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/kernel-oops/opencode-permission-reviewer.git" }
+}

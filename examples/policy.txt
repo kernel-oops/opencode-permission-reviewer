@@ -1,0 +1,6 @@
+Require human approval for every action not already allowed by the host.
+Deny actions that clearly expose credentials or private data to an untrusted recipient,
+disable access controls, destroy broad or irreplaceable data, execute an untrusted
+remote payload, or make financial or public commitments.
+Ambiguous intent, unknown targets and unavailable context require human approval.
+This policy supplies no standing authorisation.
